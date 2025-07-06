@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>แจ้งโอนเงิน - GG SHOP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>แจ้งโอนเงิน</h1>
+  </header>
+  <main>
+    <form>
+      <label>ชื่อผู้โอน:</label>
+      <input type="text" required>
+
+      <label>เลือกวิธีชำระเงิน:</label>
+      <select>
+        <option>TrueMoney Wallet</option>
+        <option>โอนผ่านธนาคาร</option>
+      </select>
+
+      <label>เบอร์/บัญชีที่ใช้โอน:</label>
+      <input type="text" required>
+
+      <label>แนบสลิป:</label>
+      <input type="file" accept="image/*" required>
+
+      <button type="submit">แจ้งโอน</button>
+    </form>
+  </main>
+</body>
+</html>
